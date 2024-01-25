@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script> 
+   <body>
+<div class="form">
+    
+     <form id="myForm">
+
+    <div class="fn"><label for="firstName">First Name:</label>
+    <input class="input" type="text" id="firstName" placeholder="firstName" name="firstName" required><br></div>
+
+    <div class="ln"><label for="lastName">Last Name:</label>
+    <input class="input" placeholder="LastName" type="text" id="lastName" name="lastName" required><br></div>
+
+   <div class="ad"> <label for="address">Address:</label>
+    <textarea id="address" placeholder="Address" name="address" required></textarea><br></div>
+
+    <div class="pn"><label for="pincode">Pincode:</label>
+    <input class="input" placeholder="Pincode" type="text" id="pincode" name="pincode" required><br></div>
+
+   <div class="gn"> <label for="gender">Gender:</label>
+    <select id="gender" name="gender" required>
+      <option value="male">Male</option>
+      <option value="female">Female</option>
+    </select><br></div>
+
+  <div class="f-n">  <label for="food">Choice of Food (select at least 2):</label>
+   <select class="input" name="food" id="food">
+      <option>Pizza</option>
+      <option>Chicken</option>
+      <option>Mutton Briyani</option>
+      <option>Fish</option>
+      <option>Coffe</option>
+    </select><br></div>
+
+  <div class="st">  <label for="state">State:</label>
+    <input class="input"  placeholder="State"type="text" id="state" name="state" required><br></div>
+
+  <div class="cn">  <label for="country">Country:</label>
+    <input class="input" placeholder="Country" type="text" id="country" name="country" required><br></div>
+
+    <button type="button" onclick="submitForm()">Submit</button>
+  </form>
+</div>
+   <div class="table">
+     <table id="myTable">
+    <thead>
+      <tr>
+        <th>First Name</th>
+        <th>Last Name</th>
+        <th>Address</th>
+        <th>Pincode</th>
+        <th>Gender</th>
+        <th>Food</th>
+        <th>State</th>
+        <th>Country</th>
+      </tr>
+    </thead>
+    <tbody>
+      <!-- Table body will be populated dynamically -->
+    </tbody>
+  </table>
+   </div>
+   </body>
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+    <script src="script.js"></script>
+</body>
+</html>

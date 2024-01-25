@@ -1,0 +1,159 @@
+.form{
+height: 500px;
+
+border: 1px solid black;
+padding: 6px;
+box-shadow: 6px 6px 15px #888888;
+border: none;
+display: flex;
+flex-direction: row;
+justify-content: center;
+column-gap: 30px;
+background-color: whitesmoke;
+color: #0ef;
+
+}
+.f-n{
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  column-gap: 30px;
+}
+.f-nn{
+   display: flex;
+  flex-direction: row;
+  gap: 50px;
+}
+
+.table{
+  
+    border: 1px solid black;
+padding: 6px;
+box-shadow: 6px 6px 15px #888888;
+border: none;
+
+}
+
+
+
+.body {
+      font-family: Arial, sans-serif;
+    }
+
+    form {
+      margin-bottom: 20px;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 20px;
+    }
+
+    table, th, td {
+      border: 1px solid #ddd;
+    }
+
+    th, td {
+      padding: 10px;
+      text-align: left;
+    }
+
+    th {
+      background-color: #f2f2f2;
+    }
+  .input{
+    height: 25px;
+   
+    
+  }
+  /* ------ */
+  .form-control {
+  position: relative;
+  margin: 20px 0 40px;
+  width: 190px;
+}
+
+.form-control input {
+  background-color: transparent;
+  border: 0;
+  border-bottom: 2px #fff solid;
+  display: block;
+  width: 100%;
+  padding: 15px 0;
+  font-size: 18px;
+  color: #fff;
+}
+
+.form-control input:focus,
+.form-control input:valid {
+  outline: 0;
+  border-bottom-color: lightblue;
+}
+
+.form-control label {
+  position: absolute;
+  top: -20px;
+  left: 0;
+  pointer-events: none;
+}
+
+.form-control label span {
+  display: inline-block;
+  font-size: 18px;
+  min-width: 5px;
+  color: #fff;
+  transition: 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.form-control input:focus+label span,
+.form-control input:valid+label span {
+  color: lightblue;
+  transform: translateY(-30px);
+}
+
+.ad textarea{
+  display: flex;
+  margin-left: 83px;
+  margin-top: -20px;
+  width: 190px;
+}
+.pn input{
+  display: flex;
+  margin-left: 83px;
+  margin-top: -30px;
+  width: 190px;
+}
+#gender{
+   display: flex;
+  margin-left: 83px;
+  margin-top: -30px;
+  width: 190px;
+}
+.st input{
+ display: flex;
+  margin-left: 83px;
+  margin-top: -30px;
+  width: 190px;
+}
+.cn input{
+ display: flex;
+  margin-left: 83px;
+  margin-top: -30px;
+  width: 190px;
+}
+.form{
+  background-image: url('https://th.bing.com/th/id/OIG.Cm5oBDt8xb4p6Bq5oSd6?w=270&h=270&c=6&r=0&o=5&pid=ImgGn');
+ object-position: 500px;
+ background-size: 1350px 500px;
+
+ 
+  background-repeat: no-repeat;
+  
+}
+
+
+
+
+
+
